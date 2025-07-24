@@ -63,4 +63,6 @@
   font-weight: bold;
 }
 
-
+.plant-ul > li{
+  margin-bottom: 20px;
+}
