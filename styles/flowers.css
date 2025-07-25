@@ -1,8 +1,7 @@
 @import "tailwindcss";
 
 /* font */
- @import
-  url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 .inter-font {
   font-family: "Inter", sans-serif;
@@ -16,58 +15,70 @@
   font-style: normal;
 }
 
-/* shared style */
-.drak1{
-  color: #252432;
-}
-
-.dark2{
-  color: #8987A1;
-}
-.color-primary{
-  color: #E95A08;
-}
-
-.description{
+/* for responsive */
+.description-res {
   color: rgba(0, 0, 0, 0.5);
-  font-size: 1.37rem;
+  font-size: 14px;
 }
-.section-header{
-  font-size: 3.12rem;
-  color: #E95A08;
+
+.section-header-res {
+  font-size: 24px;
+  color: #e95a08;
   font-weight: bold;
   margin-bottom: 16px;
 }
-.btn-primary{
-  padding: 19px 80px;
+
+/* shared style */
+.drak1 {
+  color: #252432;
+}
+
+.dark2 {
+  color: #8987a1;
+}
+.color-primary {
+  color: #e95a08;
+}
+
+.description {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.37rem;
+}
+.section-header {
+  font-size: 3.12rem;
+  color: #e95a08;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.btn-primary {
   font-weight: 600;
-  background-color: #E95A08;
+  background-color: #e95a08;
   color: white;
 }
 
 /* our plan section */
-.card > img{
+.card > img {
   margin-bottom: 30px;
   width: 100%;
 }
-.card > p{
+.card > p {
   color: #111111;
   font-size: 1.375rem;
   margin-bottom: 20px;
   font-weight: 500;
 }
-.card > h3{
-   color: #111111;
+.card > h3 {
+  color: #111111;
   font-size: 1.375rem;
   margin-bottom: 30px;
   font-weight: bold;
 }
 
-.flower-ul > li{
+.flower-ul > li {
   margin-bottom: 20px;
 }
 
-.footer-ul > li{
+.footer-ul > li {
   margin-bottom: 1.625rem;
-  color: #6B7280;
+  color: #6b7280;
 }
