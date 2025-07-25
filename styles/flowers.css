@@ -66,3 +66,8 @@
 .flower-ul > li{
   margin-bottom: 20px;
 }
+
+.footer-ul > li{
+  margin-bottom: 1.625rem;
+  color: #6B7280;
+}
